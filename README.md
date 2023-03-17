@@ -44,8 +44,8 @@ Some uses of a keylogger are:
 ### Getting started
 
 #### System requirements
-- MS Windows (tested on 10). TODO: test Linux (requires sudo) and macOS support;
-- [Python 3](https://www.python.org/downloads/) (tested on v. 3.7.4).
+- MS Windows (tested on 10).
+- [Python 3](https://www.python.org/downloads/) (tested on v. 3.10.1).
 
 #### Usage
 
