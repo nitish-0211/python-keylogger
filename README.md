@@ -1,4 +1,4 @@
-## Advanced Python Keylogger for Windows
+## Python Keylogger for Windows
 
 ### Uses
 Some uses of a keylogger are:
