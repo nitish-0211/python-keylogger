@@ -1,8 +1,5 @@
 ## Advanced Python Keylogger for Windows
 
-NOTE: This project should be used for authorized testing or educational purposes only. 
-You are free to copy, modify and reuse the source code at your own risk. 
-
 ### Uses
 Some uses of a keylogger are:
 - Security Testing: improving the protection against hidden key loggers;
@@ -28,6 +25,22 @@ Some uses of a keylogger are:
 - Privacy protection:
   - RSA public-key encryption of logs on the fly using [PyCryptoDome](https://pycryptodome.readthedocs.io/en/latest/).
 
+### Security Concerns
+- Privacy Concerns: 
+  - Keyloggers can be used to record sensitive information such as passwords, credit card numbers, and other personally identifiable information.
+  - This information can then be used for malicious purposes.
+- Data Theft: 
+  - Keyloggers can be used to steal data from a computer. 
+  - This data can then be used for malicious purposes such as identity theft, fraud, or other criminal activities.
+- Malware: 
+  - Keyloggers are a type of malware and can be used to infect a computer with malicious software such as viruses, worms, and other malicious code.
+- Denial of Service Attacks: 
+  - Keyloggers can be used to launch denial of service attacks. 
+  - These attacks can cause a computer to crash or become unresponsive.
+- Unauthorized Access:
+  - Keyloggers can be used to gain unauthorized access to a computer system.
+  - This can be used to gain access to restricted areas of the system or to steal information.
+
 ### Getting started
 
 #### System requirements
@@ -37,7 +50,7 @@ Some uses of a keylogger are:
 #### Usage
 
 ##### **Quick start**
-1. `git clone https://github.com/secureyourself7/python-keylogger`
+1. `git clone https://github.com/nitish-0211/python-keylogger.git`
 2. `cd python-keylogger`
 3. Customize parameters in Start.py: url_server_upload, hidden_service_check_connection.
 ###### **Run as a Python script**
@@ -60,21 +73,9 @@ Some uses of a keylogger are:
 - **[optional]**
   - **encrypt:** enable the encryption of logs with a public key provided in Start.py.
 
-### Video tutorials (similar but simpler projects)
-https://www.youtube.com/watch?v=uODkiVbuR-g
-https://www.youtube.com/watch?v=8BiOPBsXh0g
 
 ### Known issues
 - Does not capture passwords auto-typed by KeePass, however, it captures KeePass DB passwords.
 - See [Keyboard: Known limitations](https://github.com/boppreh/keyboard#known-limitations). 
-Feel free to contribute to fix any problems, or to submit an issue!
 
-
-### Notes
-Cyrillic layout is implemented, meaning support for these languages: Russian, Russian - Moldava, Azeri, Belarusian, Kazakh, Kyrgyz, Mongolian, Tajik, Tatar, Serbian, Ukrainian, Uzbek. 
-
-Please note that this repo is for educational purposes only. No contributors, major or minor, are responsible for any actions made by the software.
-
-Don't really understand licenses or tl;dr? Check out the [MIT license summary](https://tldrlegal.com/license/mit-license).
-
-Distributed under the MIT license. See [LICENSE](https://github.com/secureyourself7/python-keylogger/blob/master/LICENSE) for more information.
+(Feel free to contribute to fix any problems, or to submit an issue!)
